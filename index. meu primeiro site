@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Meu primeiro site</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+        <h1>MUNDO PET</h1>
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="sobre.html">sobre</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Gatos - Curiosidadades</h2>
+
+            <button onclick="mostrarfatogato()">Mostrar Curiosidades de Gato</button>
+            <p id="fato-gato"></p>
+
+            <h2>CACHORROS- TOP 10 MAIS LINDOS</h2>
+        <button onclick="mostraimagemcachorro()">Mostarr Imagem de Cachorro</button>
+        <br><br>
+        <img id="imagem-cachorro" src="" alt="cachorro aleatorio" width="300">
+        </section>
+
+        
+    </main>
+
+    <footer>
+        <p>&copy;2025 Douglas Almeida Dantas. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
